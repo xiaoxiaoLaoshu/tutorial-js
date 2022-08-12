@@ -9,7 +9,7 @@ const addPhone = async (newPhone) => {
     return response?.data;
 };
 const putPhone = async (newPhone) => {
-    const response = await axios.put(baseUrl, newPhone);
+    const response = await axios.put(`${baseUrl}/${newPhone.id}`, newPhone);
     return response?.data;
 };
 const deletePhone = async (id) => {
