@@ -1,9 +1,12 @@
-import './App.css';
+import "./App.css";
+import Phone from "./components/Phone";
 
 function App() {
-  return (
-    
-  );
+    return (
+        <>
+            <Phone></Phone>
+        </>
+    );
 }
 
 export default App;
